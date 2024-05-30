@@ -41,14 +41,14 @@ The script considers a person interested if their dominant emotion is 'happy', '
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/codewithdark-git/interestAnalyzer.git
-cd interestAnalyzer
+git clone https://github.com/codewithdark-git/InterestAnalyzer.git
+cd InterestAnalyzer
 ```
 
 2. Run the script:
 
 ```bash
-python main.py
+python emotion_detection.py
 ```
 
 3. Press 'q' to exit the video feed.
@@ -80,4 +80,12 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 - [DeepFace](https://github.com/serengil/deepface)
 - [NumPy](https://numpy.org/)
 
-Feel free to contribute to this project by opening issues or submitting pull requests.
+---
+
+## Project Background
+
+This project was inspired by a memorable classroom experience. In a lively database class with a strict but perceptive teacher, it was common to witness a mix of strict discipline and spontaneous humor. 
+
+One day, the teacher remarked on their ability to read our emotions from our expressions and behaviors. This sparked an idea: what if we could create a system that uses machine learning to read students' faces and assess their interest levels in real-time? Such a system could help identify who is engaged and who isn't, making it a valuable tool for educators.
+
+This project aims to bridge technology and education, enhancing the learning experience by providing real-time feedback on student engagement. This tool can help teachers tailor their methods to better suit the needs of their students, creating a more responsive and effective learning environment.
